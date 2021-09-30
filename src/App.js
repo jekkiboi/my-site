@@ -1,22 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { FaBomb } from 'react-icons/fa'
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <FaBomb className="App-logo"/>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Jack Mayer PortFolio Coming Soon
         </p>
+        <span>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/jack-mayer-se/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          LinkedIn
         </a>
+        &nbsp;&nbsp; &nbsp;&nbsp;
+        <a
+          className="App-link"
+          href="https://github.com/jekkiboi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        </span>
       </header>
     </div>
   );
