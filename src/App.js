@@ -7,12 +7,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <h1>Hi, I'm Jack.</h1>
+   
         <FaBomb className="App-logo"/>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Jack Mayer PortFolio Coming Soon
+        <h2>My site will be up soon</h2>
+        <h3 className='hey'>For now, check out the links below</h3>
         </p>
-        <span>
+        <span className='links'>
         <a
           className="App-link"
           href="https://www.linkedin.com/in/jack-mayer-se/"
@@ -21,7 +24,7 @@ function App() {
         >
           LinkedIn
         </a>
-        &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a
           className="App-link"
           href="https://github.com/jekkiboi"
